@@ -14,31 +14,39 @@
         </div>
 
         <div class="num-container">
-            <button class="s-button">7</button>
-            <button class="s-button">8</button>
-            <button class="s-button">9</button>
-            <button class="s-button">+</button>
+            <button class="s-button" onclick="numbers(7)">7</button>
+            <button class="s-button" onclick="numbers(8)">8</button>
+            <button class="s-button" onclick="numbers(9)">9</button>
+            <button class="s-button" onclick="numbers('+')">+</button>
         </div>
 
         <div class="num-container">
-            <button class="s-button">4</button>
-            <button class="s-button">5</button>
-            <button class="s-button">6</button>
-            <button class="s-button">-</button>
+            <button class="s-button" onclick="numbers(4)">4</button>
+            <button class="s-button" onclick="numbers(5)">5</button>
+            <button class="s-button" onclick="numbers(6)">6</button>
+            <button class="s-button" onclick="numbers('-')">-</button>
         </div>
 
         <div class="num-container">
-            <button class="s-button">1</button>
-            <button class="s-button">2</button>
-            <button class="s-button">3</button>
-            <button class="s-button">/</button>
+            <button class="s-button" onclick="numbers(1)">1</button>
+            <button class="s-button" onclick="numbers(2)">2</button>
+            <button class="s-button" onclick="numbers(3)">3</button>
+            <button class="s-button" onclick="numbers('/')">÷</button>
+        </div>
+
+        <div class="num-container">
+            <button class="s-button" onclick="reset()">C</button>
+            <button class="s-button" onclick="numbers(0)">0</button>
+            <button class="s-button" onclick="numbers('.')">.</button>
+            <button class="s-button" onclick="numbers('*')">x</button>
         </div>
 
         <div class="num-container-2">
-            <button class="s-button"><</button>
-            <button class="s-button">></button>
-            <button class="s-button-2">=</button>
+            <button class="s-button" onclick="numbers('<')"><</button>
+            <button class="s-button" onclick="numbers('>')">></button>
+            <button class="s-button-2" onclick="operation()">=</button>
         </div>
     </div>
 </body>
+<script src="./main.js"></script>
 </html>

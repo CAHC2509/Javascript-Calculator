@@ -26,6 +26,7 @@ body {
 
 .body-calculator {
     width: 90%;
+    max-width: 360px;
     height: fit-content;
     overflow: hidden;
     background-color: var(--body-color);
@@ -48,11 +49,6 @@ body {
     gap: 1rem;
     font-size: 1.5rem;
     font-weight: bold;
-}
-
-.num-container-2 {
-    justify-content: space-between;
-    padding: 1rem 1.5rem;
 }
 
 .s-button, .s-button-2 {
