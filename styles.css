@@ -2,6 +2,8 @@
     --body-color: rgb(44, 44, 44);
     --keys-color: rgb(230, 230, 230);
     --equal_key-color: rgb(10, 189, 19);
+    --clear-color: rgb(253, 168, 9);
+    --operator-color: rgb(77, 191, 236);
 }
 
 * {
@@ -68,4 +70,12 @@ body {
     border-radius: 4rem;
     color: var(--keys-color);
     background-color: var(--equal_key-color);
+}
+
+.clear {
+    background-color: var(--clear-color);
+}
+
+.operator {
+    background-color: var(--operator-color);
 }
